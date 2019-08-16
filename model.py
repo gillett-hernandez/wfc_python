@@ -142,7 +142,7 @@ class Model:
             while(presult):
                 presult = self.Propagate()
                 
-                self.Graphics().save("in_progress_{0}_{1}.png".format(hackstring, hackcount), format="PNG")
+                # self.Graphics().save("in_progress_{0}_{1}.png".format(hackstring, hackcount), format="PNG")
                 hackcount += 1
 
                 #print("Propagate: {0}".format(pcount))
